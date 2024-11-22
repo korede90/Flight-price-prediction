@@ -1,0 +1,67 @@
+/* src/FlightForm.css */
+.flight-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.flight-form h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group select, 
+.form-group input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background: #0056b3;
+}
+
+.prediction {
+  text-align: center;
+  font-size: 18px;
+  color: #4caf50;
+  margin-top: 1.5rem;
+}
+
+.error-message {
+  text-align: center;
+  color: #e74c3c;
+  margin-top: 1rem;
+}
